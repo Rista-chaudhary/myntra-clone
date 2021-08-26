@@ -136,11 +136,11 @@ font-weight: bold;
     padding-right: 20px;
     display: flex;
     align-items: center;
-    margin-right:220px;
+    margin-right:320px;
 }
 .container-with-images{
     border:solid 3px gold;
-    margin-right: 1020px;
+    margin-right: 20px;
     
 }
 .img-designer-ethnic{
@@ -150,6 +150,7 @@ height:auto;
 
 .second-container-with-subcontainer{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     
 }
@@ -165,8 +166,36 @@ height:auto;
     font-family: Verdana;
     font-size: 30px;
 }
-.vertical-col-one{
-    width:220px;
-    margin-top:25px;
+.ladies-top{
+display:flex;
+
 }
+.ladies-top-child{
+    text-align: center;
+    background-color: rgba(240,240,240,0.5);
+    padding:20px;
+    border-radius: 5px;
+    
+}
+.vertical-col-one{
+    width:200px;
+   
+    
+    border-radius: 5px;
+    
+}
+.vertical-col-two{
+    width:180px;
+    height:250px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.top-for-girls{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
 
