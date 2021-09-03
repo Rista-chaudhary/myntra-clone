@@ -177,11 +177,26 @@ display:flex;
     border-radius: 5px;
     
 }
-.vertical-col-one{
-    width:200px;
+.vertical-parent-container{
+    display:flex;
    
+}
+.vertical-col-one-container{
+    background-color: rgba(240,240,240,0.5);
+    text-align:center;
+    padding:20px;
+}
+.vertical-col-one{
+    width:180px;
+    height:230px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     
-    border-radius: 5px;
+    border-radius: 10px;
+    
+}
+.Kurtas-class{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 }
 .vertical-col-two{
@@ -197,5 +212,151 @@ display:flex;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 }
+.parent-container-with-two-images{
+    
+    display: flex;
+    text-align: center;
+    
+}
+.child-parent-container-with-two-images{
+    background-color: lightgray;
+    padding:20px;
+    border-radius: 7px;
+    
+}
+.child-parent-container-with-two-images-first{
+    margin-bottom: 20px;
+}
+.child-image-one{
+    width:220px;
+    height:auto;
+    border-radius: 7px;
+    margin-bottom: 10px;
+   
+}
+.fitness-collection{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.child-image-two{
+    width:220px;
+    height:auto;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.footer-full-container{
+    padding: 50px;
+background-color: #FAFBFC;
+display:flex;
+margin-top:30px;
+justify-content: space-evenly;
 
 
+}
+.footer-first-sub-container{
+    margin-bottom: 20px;
+}
+.footer-first-header{
+margin-right: 20px;
+
+
+}
+.first-header-list{
+    list-style-type: none;
+    padding-left: 0;
+}
+.myntra-button{
+    border-radius: 30px;
+    background-color: red;
+    border-width: 0;
+    height: 15px;
+    font-size: 11px;
+    color:white;
+    font-weight: bold;
+}
+.footer-sec-sub-container{
+    margin-bottom: 20px;
+    
+  
+}
+.footer-sec-header{
+    margin-right: 20px;
+    
+}
+.sec-header-list{
+list-style-type: none;
+padding-left: 0;
+}
+.footer-third-sub-container{
+    margin-right: 20px;
+}
+.footer-third-header{
+    margin-bottom:20px;
+}
+.image-with-google-and-apple-img{
+    margin-bottom:20px;
+}
+.google-img{
+    width:140px;
+    height: 42px;
+    margin-right: 10px;
+}
+.apple_store{
+    width:140px;
+    height: 42px;
+    margin-right: 10px;
+}
+.Keep-in-touch{
+    margin-bottom: 20px;
+}
+
+.icon-images{
+    /* display:flex; */
+    
+}
+.icon-images img{
+    width:20px;
+    height:20px;
+    margin-right:10px;
+}
+.footer-fourth-container{
+
+}
+.original{
+    display: flex;
+    margin-bottom:20px;
+    
+}
+.original img{
+    margin-right: 20px;
+    width: 48px;
+    height: 40px;
+}
+.thirty-days{
+    display: flex;
+}
+.thirty-days img
+{
+    margin-right: 20px;
+    width: 48px;
+    height: 40px;
+}
+.scroll-fixed-container{
+    background-color: #535766;
+    position:fixed;
+    top: 50%;
+    background-color: #535766;
+    position: fixed;
+    right: -77px;
+    transform: rotate(
+-90deg);
+    padding:7px;
+    border-radius: 6px 6px 0px 0px;
+
+}
+.flat-off{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
